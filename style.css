@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  color: #505962;
+}
+
+/*--- Navigation ---*/
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-brand img {
+  height: 3rem;
+  width: 9rem;
+  padding-left: 0.7rem;
+}
+
+.navbar-nav li {
+  padding-right: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #00bbe4;
+}
+
+/*--- Landing Page ---*/
+.home-inner {
+  background-image: url(img/background.jpg);
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 55%;
+  z-index: 1;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.caption h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  text-shadow: 0.1rem 0.1rem 0.9rem #000000;
+  padding-bottom: 1rem;
+}
+
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: 0.1rem 0.1rem 0.7rem #000000;
+  padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+  border-width: medium;
+  padding: 0.6rem 1.3rem;
+  font-size: 1.1rem;
+}
