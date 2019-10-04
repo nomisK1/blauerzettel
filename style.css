@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
 
 body {
   overflow-x: hidden;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #505962;
 }
 
@@ -18,8 +18,8 @@ body {
 .navbar {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 0.9rem;
-  letter-spacing: 0.05rem;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
   background: rgba(0, 0, 0, 0.6) !important;
 }
 
@@ -53,7 +53,9 @@ body {
   width: 100%;
   max-width: 100%;
   position: absolute;
-  top: 55%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 1;
   color: #ffffff;
   text-transform: uppercase;
@@ -77,7 +79,12 @@ body {
   border-width: medium;
   border-radius: 0;
   padding: 0.6rem 1.3rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.btn-lg:hover {
+  color: #00bbe4;
 }
 
 /*--- Banner ---*/
@@ -164,6 +171,23 @@ h3.heading {
 
 .fixed-background p {
   margin-top: 1.5rem;
+}
+
+.btn-material {
+  border-width: medium;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 0.6rem 1.2rem;
+  margin: 2.5rem;
+  color: #ffffff;
+  background-color: #00bbe4;
+  border-color: #00bbe4;
+}
+
+.btn-material:hover {
+  background-color: #00a7cc;
+  border-color: #00a7cc;
 }
 
 /*--- References Section ---*/
