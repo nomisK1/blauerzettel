@@ -36,6 +36,7 @@ body {
 }
 
 /*--- Landing Page ---*/
+
 .home-inner {
   background-image: url(img/background.jpg);
 }
@@ -54,18 +55,59 @@ body {
   font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 0.05rem;
-  text-shadow: 0.1rem 0.1rem 0.9rem #000000;
+  text-shadow: 0.1rem 0.1rem 0.8rem #000000;
   padding-bottom: 1rem;
 }
 
 .caption h3 {
   font-size: 2rem;
-  text-shadow: 0.1rem 0.1rem 0.7rem #000000;
+  text-shadow: 0.1rem 0.1rem 0.5rem #000000;
   padding-bottom: 1.6rem;
 }
 
 .btn-lg {
   border-width: medium;
+  border-radius: 0;
+  text-transform: uppercase;
   padding: 0.6rem 1.3rem;
   font-size: 1.1rem;
+  margin: 1rem;
+  color: #ffffff;
+  background-color: #00bbe4;
+  border-color: #00bbe4;
+}
+
+.btn-lg:hover {
+  color: #ffffff;
+  background-color: #00a7cc;
+  border-color: #00a7cc;
+}
+
+/*--- Services Section */
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+
+.narrow h1 {
+  font-size: 2.4rem;
+}
+
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  text-transform: uppercase;
+  padding: 0.6rem 1.3rem;
+  font-size: 1.1rem;
+  margin: 1rem;
+  color: #ffffff;
+  background-color: #00bbe4;
+  border-color: #00bbe4;
+}
+
+.btn-secondary:hover {
+  background-color: #00a7cc;
+  border-color: #00a7cc;
 }
